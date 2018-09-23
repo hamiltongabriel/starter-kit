@@ -1,10 +1,8 @@
 # Install Packages
 - npm install
 # Verification vulnerabilities
-- nsp check
+- npm run security-check
 # Start Server
-- node buildScrips/srcServer.js
+- npm start
 # Domain temporary 
-- lt --port 3000 --subdomain hamilton
-
-
+- npm run share
